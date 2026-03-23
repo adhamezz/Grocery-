@@ -7,9 +7,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node modules
 node_modules
-dist
+
+# Ignore dist by default but include it explicitly
+dist/
+!dist/
+
+# Optional server-side build folder
 dist-ssr
+
+# Local files
 *.local
 
 # Editor directories and files
